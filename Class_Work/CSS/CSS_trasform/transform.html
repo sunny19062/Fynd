@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+                display: flex;
+                
+                background-color: aqua;
+               
+                /* transform: translate(20px,30px); */
+                /* transform:rotateX(40deg); */
+                /* transform: scale(2,3); */            
+        }
+        li{
+                flex: 1;
+                text-align: center;
+                text-decoration: none;
+                text-transform: none;
+                background-color: aqua;
+        }
+        nav:hover{
+            background-color: black;
+            color: azure;
+
+        }
+        div {
+            height: 200px;
+            width: 300px;
+            background-color: aqua;
+            margin: 30px;
+            transition-property: all; 
+            transition-duration: 3s;
+            /* transition-delay: 1S; */
+            /* transition-timing-function: linear; */
+            /* transition-timing-function: ease-in; */
+            /* transition-timing-function: ease-out; */
+            /* transition-timing-function: ease-in-out/; */
+            transition-timing-function: ease;
+        }
+        div:hover {
+            width: 70px;
+            height:90px
+        }
+        h1{
+            color: blue;
+        }
+        h1:hover, h1:focus{
+            color: aqua;
+           
+            transition: all 2s ease linear 3s;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div></div>
+    <hr>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate doloribus repellendus nisi aspernatur explicabo rerum quasi hic expedita, aut architecto cumque sunt quisquam! Veniam voluptate aliquam beatae officiis placeat?
+
+    </h1>
+</body>
+</html>
